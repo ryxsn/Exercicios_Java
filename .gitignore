@@ -1,5 +1,18 @@
-"# Exemplo de .gitignore para um projeto Java no NetBeans" 
-"build/" 
-"dist/" 
-"nbproject/private/" 
-"*.log" 
+# Ignore todos os arquivos de build
+build/
+dist/
+
+# Ignore arquivos de configuração pessoal e logs
+*.log
+*.tmp
+*.swp
+
+# Ignore diretórios específicos do NetBeans
+nbproject/private/
+
+# Ignore dependências baixadas, se estiver usando Maven ou Gradle
+/dependency-folder/
+
+# Ignore arquivos de credenciais e configurações sensíveis
+*.properties
+*.credentials
