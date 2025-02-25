@@ -12,6 +12,7 @@ public class Ex13 {
         double notas[] = new double[5];
         double notasMedia = 0;
         int notasTamanho = notas.length;
+        StringBuilder notasFormatacao = new StringBuilder(); // Usando StringBuilder para acumular as notas
         
         //Recebendo 5 variáveis do usuário
         for(int i = 0; i < notasTamanho; i++){
@@ -23,21 +24,22 @@ public class Ex13 {
            //Somando todas notas
            notasMedia += numeroVetor;
         }
+        //Organizando a array de forma crescente
+        Arrays.sort(notas);
+        //Organizando a array de forma decrescente
+        for(int i = 0; i < notasTamanho / 2; i++){
+            double temp = notas[i];
+            notas[i] = notas[notasTamanho - 1 - i];
+            notas[notasTamanho - 1 - i] = temp;
+        }
+        
+        for(int i = 0; i < notasTamanho; i++){
+            notasFormatacao.append(String.format("%.1f  ", notas[i]));
+        }
         //Calculando média aritmética
         notasMedia = notasMedia / notasTamanho;
         
-        //Organizando-as em forma crescente
-        Arrays.sort(notas);
-        //Organizando-as em forma decrescente ***************************
-        int j = notasTamanho - 1; // j = 5
-        String notasFormatacao = "";
-        for(int i = 0; i < notasTamanho; i++){
-            notas[i] = notas[j];
-            notasFormatacao = notasFormatacao + " " + notas[i];
-            j--;
-        }
-        //Imprimindo resultado final
-        JOptionPane.showMessageDialog(null, "Notas: " + notasFormatacao + "\nMédia aritmética: " + notasMedia);
+        //Imprimindo osutput
+        JOptionPane.showMessageDialog(null, "Notas: " + notasFormatacao.toString() + String.format("\nMédia: %.1f", notasMedia));
     }
 }
-    
