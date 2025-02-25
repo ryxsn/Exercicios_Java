@@ -11,5 +11,20 @@ import javax.swing.JOptionPane;
 
     public class Ex10 {
         public static void main(String[] args) {
-        }
+            
+            double produtoValor = -1;
+            
+            while(produtoValor != 0){
+                //Recebendo a variável do usuário
+                String produtoValorString = JOptionPane.showInputDialog("Insira o valor do produto: ");
+                produtoValor = Double.parseDouble(produtoValorString); 
+                
+                //Aplicando ajuste, e, mostrando na tela enquanto for diferente de 0.
+                if(produtoValor != 0){
+                produtoValor = Math.round(produtoValor * 1.12); 
+                // produtoValor = Math.round(produtoValor * 100.0) / 100.0;
+                JOptionPane.showMessageDialog(null, String.format("O valor do produto ao ser reajustado em 12%%: %.2f", produtoValor));
+            }
+        }   
+    }
 }
