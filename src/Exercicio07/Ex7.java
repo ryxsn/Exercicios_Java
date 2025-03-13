@@ -4,7 +4,7 @@ as resistências existentes (RE = r1 + r2 + ... + rn).
 Faça uma classe que receba o valor de quatro
 resistências ligadas em série, calcule e mostre a
 resistência equivalente, a maior e a menor resistência. */
-package Ex7;
+package Exercicio07;
 import javax.swing.JOptionPane;
 
 public class Ex7 {

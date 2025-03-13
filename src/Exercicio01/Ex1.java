@@ -1,7 +1,7 @@
 /*Escreva um programa na linguagem Java que contenha duas variáveis do tipo double relativas a nota parcial e final de um aluno.
 Calcule e apresente na tela a média final utilizando método println.*/
 
-package Ex1;
+package Exercicio01;
 import java.util.Scanner;
 
 public class Ex1 {

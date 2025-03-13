@@ -1,7 +1,7 @@
 /*Crie uma classe que receba dois valores numéricos e apresente na tela o resultado das quatro operações básicas: 
 soma, subtração, multiplicação e divisão.*/
 
-package Ex5;
+package Exercicio05;
 import javax.swing.JOptionPane;
 
 public class Ex5 {

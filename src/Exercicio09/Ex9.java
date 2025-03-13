@@ -1,6 +1,6 @@
 /* Crie uma classe que simule a jogada de um dado de seis lados (números de 1 a 6) por três vezes.
 Ao final some seus valores e apresente o resultado das três jogadas. */
-package Ex9;
+package Exercicio09;
 import javax.swing.JOptionPane;
 
 public class Ex9 {

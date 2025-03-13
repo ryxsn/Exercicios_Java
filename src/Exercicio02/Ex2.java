@@ -1,7 +1,7 @@
 /*Escreva um programa em linguagem Java que apresente na tela o IMC e o nome do João. 
 Para isso, utilize a caixa de diálogo.*/
 
-package Ex2;
+package Exercicio02;
 
 //IMC = (peso/altura*altura)
 public class Ex2 {

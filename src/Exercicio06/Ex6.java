@@ -11,7 +11,7 @@ Caso o valor digitado seja menor que zero, deve ser emitida uma mensagem de avis
         -----------------------------------------   */
 
 
-package Ex6;
+package Exercicio06;
 import javax.swing.JOptionPane;
 
 public class Ex6 {

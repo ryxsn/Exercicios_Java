@@ -1,5 +1,5 @@
 //Crie uma classe para calcular e exibir na tela o peso ideal. IMC = (peso / (altura^2))
-package Ex4;
+package Exercicio04;
 import javax.swing.JOptionPane;
 
 public class Ex4 {

@@ -1,7 +1,7 @@
 /*Faça uma classe que apresente em tela a tabuada de qualquer número. O usuário fornece o nú-
 mero desejado e a classe apresenta a relação de todos os cálculos de 1 a 10. */
 
-package Ex8;
+package Exercicio08;
 import javax.swing.JOptionPane;
 
 public class Ex8 {

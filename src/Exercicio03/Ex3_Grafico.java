@@ -1,6 +1,6 @@
 //Crie uma classe que receba o valor da base e da altura de um triângulo retângulo e apresente na tela sua área.
 
-package Ex3;
+package Exercicio03;
 import javax.swing.JOptionPane;
 
 public class Ex3_Grafico {
